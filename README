@@ -1,4 +1,5 @@
-usage : tty-clock [-iuvsScbtrahDBxn] [-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-z scale] [-T tty]
+## Usage 
+tty-clock [-iuvsScbtrahDBxn] [-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-z scale] [-T tty]
     -s            Show seconds
     -S            Screensaver mode
     -x            Show box
@@ -19,3 +20,6 @@ usage : tty-clock [-iuvsScbtrahDBxn] [-C [0-7]] [-f format] [-d delay] [-a nsdel
     -d delay      Set the delay between two redraws of the clock. Default 1s.
     -a nsdelay    Additional delay between two redraws in nanoseconds. Default 0ns.
     -z scale      Scale the clock UI (1-4). Default 1.
+
+## Credits
+- Scale factor option (`-z` flag) by [@author-handle](https://github.com/author-handle), originally submitted as [xorg62/tty-clock#120](https://github.com/xorg62/tty-clock/pull/120)
